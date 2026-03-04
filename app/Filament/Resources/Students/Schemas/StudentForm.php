@@ -25,12 +25,7 @@ class StudentForm
                             ->placeholder('Masukkan nama lengkap...')
                             ->maxLength(255)
                             ->required(),
-                        TextInput::make('email')
-                            ->label('Email')
-                            ->email()
-                            ->unique(ignoreRecord: true)
-                            ->placeholder('Masukkan email...')
-                            ->required(),
+                        
                         TextInput::make('nisn')
                             ->label('NISN')
                             ->placeholder('Masukkan NISN...')
